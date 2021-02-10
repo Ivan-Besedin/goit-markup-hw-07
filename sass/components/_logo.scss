@@ -1,0 +1,18 @@
+.logo {
+  display: block;
+  margin-right: 93px;
+  font-family: var(--logo-text);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+
+  &-black {
+    color: black;
+  }
+
+  &-white {
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  &-nav {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: var(--link-color);
+    }
+  }
+}
+
+.site-nav {
+  display: flex;
+
+  & .item:not(:last-child) {
+    margin-right: 50px;
+
+    & {
+      position: relative;
+    }
+  }
+}
