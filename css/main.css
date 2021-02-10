@@ -1125,7 +1125,7 @@ img {
   border-color: transparent;
 }
 
-.checkbox:focus + .icon-checkbox:checked + .icon-checkbox {
+.checkbox:checked + .icon-checkbox {
   background-color: #2196f3;
   background-image: url("../img/icon/check-icon.svg");
   background-repeat: no-repeat;

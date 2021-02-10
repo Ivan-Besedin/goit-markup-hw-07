@@ -203,13 +203,13 @@
   background-image: url('../img/icon/check-icon.svg');
   background-repeat: no-repeat;
   border-color: transparent;
+}
 
-  &:checked + .icon-checkbox {
-    background-color: #2196f3;
-    background-image: url('../img/icon/check-icon.svg');
-    background-repeat: no-repeat;
-    border-color: transparent;
-  }
+.checkbox:checked + .icon-checkbox {
+  background-color: #2196f3;
+  background-image: url('../img/icon/check-icon.svg');
+  background-repeat: no-repeat;
+  border-color: transparent;
 }
 
 .form-btn {
